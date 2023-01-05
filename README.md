@@ -7,13 +7,13 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + **Data Oversampling:** we’ll oversample the data using the RandomOverSampler and SMOTE algorithms
 + **Data Undersampling:**  we’ll undersample the data using the ClusterCentroids algorithm
 + **Combinbation of over- and under- sampling:** we’ll use a combinatorial approach of over-and undersampling using the SMOTEENN algorithm.
-• **Comparing machine learning models that reduce bias:**  we’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
++ **Comparing machine learning models that reduce bias:**  we’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
 
 
 ## Results
 
-**RandomOverSampler Model**
+**Random Over Sampler (Naïve Radom Oversampling)**
 
 ![random_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/random_oversampler.png)
 
