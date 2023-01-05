@@ -4,8 +4,8 @@
 
 For this project, we were tasked to predict credit risk for Fast Lending, a peer-to-peer lending services company. We will use Python and the Scikit-learn library to build and evaluate several machine learning models to predict credit risk by adopting the following procedures on credit card dataset:
 
-+ **Data Oversampling:** we’ll oversample the data using the RandomOverSampler and SMOTE algorithms
-+ **Data Undersampling:**  we’ll undersample the data using the ClusterCentroids algorithm
++ **Data Oversampling:** we’ll oversample the data using the RandomOverSampler and SMOTE algorithms.
++ **Data Undersampling:**  we’ll undersample the data using the ClusterCentroids algorithm.
 + **Combinbation of over- and under- sampling:** we’ll use a combinatorial approach of over-and undersampling using the SMOTEENN algorithm.
 + **Comparing machine learning models that reduce bias:**  we’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 
@@ -82,5 +82,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 
 ## Summary
 
+In general, all of the 6 machine learning models do not perform particularly well for predicting high risk based on their precision scores. On the other hand, all models had a precision score of 100% for low risk prediction. This is due to the imbalance in the dataset.  
 
+The Easy Ensemble AdaBoost Classifier has the best results regarding the metrics for measuring the performance of imbalanced classes. Also, this model has the highest balance accuracy score with 93.2%. It means that it has the highest exactness of data analysis, so we recommend this model.
 
