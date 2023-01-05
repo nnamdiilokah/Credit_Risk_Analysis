@@ -13,7 +13,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 
 ## Results
 
-## Random Over Sampler (Naïve Radom Oversampling Model)
+### Random Over Sampler (Naïve Radom Oversampling Model)
 
 ![random_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/random_oversampler.png)
 
@@ -24,7 +24,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + The recall for low risk is 60%
 
 
-## SMOTE Oversampling Model
+### SMOTE Oversampling Model
 
 ![smote_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/smote_oversampler.png)
 
@@ -35,7 +35,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + The recall for low risk is 69%
 
 
-## Undersampling: Cluster Centroids Model
+### Undersampling: Cluster Centroids Model
 
 ![cluster_centroids](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/cluster_centroids.png)
 
@@ -46,7 +46,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + The recall for low risk is 40%
 
 
-## Combination Sampling: SMOTEENN Model
+### Combination Sampling: SMOTEENN Model
 
 ![smotteen](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/smotteen.png)
 
