@@ -13,7 +13,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 
 ## Results
 
-**Random Over Sampler (Naïve Radom Oversampling)**
+**Random Over Sampler (Naïve Radom Oversampling Model)**
 
 ![random_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/random_oversampler.png)
 
@@ -22,6 +22,39 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + The recall for high risk is 71%
 + The precision for low risk is 100%
 + The recall for low risk is 60%
+
+
+**SMOTE Oversampling Model**
+
+![smote_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/smote_oversampler.png)
+
++ The balanced accuracy score is 66.2%
++ The precision for high risk is 1%
++ The recall for high risk is 63%
++ The precision for low risk is 100%
++ The recall for low risk is 69%
+
+
+**Undersampling: Cluster Centroids Model**
+
+![cluster_centroids](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/cluster_centroids.png)
+
++ The balanced accuracy score is 54.4%
++ The precision for high risk is 1%
++ The recall for high risk is 69%
++ The precision for low risk is 100%
++ The recall for low risk is 40%
+
+
+**Combination Sampling: SMOTEENN Model**
+
+![smotteen](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/smotteen.png)
+
++ The balanced accuracy score is 64.4%
++ The precision for high risk is 1%
++ The recall for high risk is 72%
++ The precision for low risk is 100%
++ The recall for low risk is 57%
 
 
 
