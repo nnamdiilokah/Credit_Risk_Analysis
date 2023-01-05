@@ -13,7 +13,7 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 
 ## Results
 
-### Random Over Sampler (Naïve Radom Oversampling Model)
+### Random Over Sampler (Naive Radom Oversampling Model)
 
 ![random_oversampler](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/random_oversampler.png)
 
@@ -55,6 +55,28 @@ For this project, we were tasked to predict credit risk for Fast Lending, a peer
 + The recall for high risk is 72%
 + The precision for low risk is 100%
 + The recall for low risk is 57%
+
+
+### Balanced Random Forest Classifier Model
+
+![random_forest](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/random_forest.png)
+
++ The balanced accuracy score is 78.8%
++ The precision for high risk is 3%
++ The recall for high risk is 70%
++ The precision for low risk is 100%
++ The recall for low risk is 87%
+
+
+### Easy Ensemble AdaBoost Classifier Model
+
+![ada_boost](https://github.com/nnamdiilokah/Credit_Risk_Analysis/blob/main/Figures/ada_boost.png)
+
++ The balanced accuracy score is 93.2%
++ The precision for high risk is 9%
++ The recall for high risk is 92%
++ The precision for low risk is 100%
++ The recall for low risk is 94%
 
 
 
